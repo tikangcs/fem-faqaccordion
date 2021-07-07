@@ -68,6 +68,7 @@ select {
 }
 
 .outer {
+  position: relative;
 }
 
 .wrapper {
@@ -98,8 +99,8 @@ select {
 
 .background__box {
   position: absolute;
-  float: left;
-  top: 48%;
+  top: 45%;
+  left: -9%;
   z-index: 1;
 }
 .accordion {
@@ -136,6 +137,7 @@ select {
 .accordion__question:hover {
   display: inline-block;
   color: orange;
+  transition: all 0.5s ease;
 }
 .accordion__question--bold {
   display: inline-block;
